@@ -1,0 +1,73 @@
+// Main wrapper for the Terms of Service page
+.termsOfService {
+  display: flex; // Enables flexible layout
+  flex-direction: column; // Stack content vertically
+  justify-content: space-between; // Distribute space between children
+  align-items: flex-start; // Align content to the left
+  padding: 20px; // Page padding
+  height: 100%; // Full height of the page
+  background-color: #f4f4f4; // Light background for readability
+
+  // Header section containing the title and effective date
+  &__header {
+    display: flex; // Horizontal layout
+    justify-content: space-between; // Spread title and date apart
+    width: 100%; // Full width
+    align-items: center; // Vertically center contents
+    margin-bottom: 20px; // Space below the header
+  }
+
+  // Title text in the header
+  &__header-title {
+    font-size: 36px; // Large heading size
+  }
+
+  // Subtext
+  &__header-text {
+    font-size: 16px; // Normal text size
+    color: #444; // Slightly muted tone
+  }
+
+  // Section wrapper for each block of terms
+  &__section {
+    display: flex; // Layout for content stack
+    flex-direction: column; // Stack vertically
+    align-items: flex-start; // Align text to the left
+    gap: 5px; // Gap between children
+    margin-bottom: 20px; // Space below each section
+
+    // Title for the section
+    &-title {
+      font-size: 22px; // Medium heading
+      font-weight: bold; // Emphasize the heading
+    }
+
+    // Paragraph for descriptions
+    &-description {
+      color: #343232; // Neutral dark color for readability
+    }
+
+    // List used to show points inside a section
+    &-list {
+      display: flex; // Stack items
+      flex-direction: column; // Vertical list
+      gap: 5px; // Space between list items
+      margin-left: 25px; // Indent the list
+
+      // Bold style for key terms inside the list
+      &--bold {
+        font-weight: 600; // Strong emphasis on key terms
+      }
+    }
+
+    // Link style
+    &-link {
+      color: #007bff; // Bright blue for visibility
+      text-decoration: none; // No underline initially
+
+      &:hover {
+        text-decoration: underline; // Underline on hover
+      }
+    }
+  }
+}

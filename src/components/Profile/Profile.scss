@@ -1,0 +1,41 @@
+// Main wrapper for the Profile page
+.profile {
+  flex: 1; // Allow it to grow to fill space
+  display: flex; // Enable flex layout
+  flex-direction: column; // Stack items vertically
+  justify-content: center; // Center content vertically
+  align-items: flex-start; // Align items to the left
+
+  // Container for the profile card
+  &__container {
+    background: #fff; // White card background
+    padding: 40px; // Inner spacing
+    border-radius: 10px; // Rounded corners
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); // Light shadow for depth
+    max-width: 500px; // Limit width of the card
+    margin: 50px auto; // Center horizontally with top/bottom margin
+    text-align: left; // Align text to the left
+  }
+
+  // Page title
+  &__title {
+    font-size: 24px; // Slightly large title
+    margin-bottom: 25px; // Spacing below the title
+    color: #007bff; // Primary blue color
+  }
+
+  // Wrapper for user details
+  &__info {
+    // Individual detail rows
+    &-field {
+      font-size: 18px; // Readable size for info
+      margin: 20px 0; // Vertical spacing between fields
+    }
+  }
+
+  // Error message styling
+  &__error {
+    color: red; // Attention-grabbing red
+    font-weight: bold; // Emphasized text
+  }
+}

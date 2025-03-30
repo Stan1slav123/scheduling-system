@@ -1,0 +1,89 @@
+// Main wrapper for the login page
+.login {
+  flex: 1;
+  display: flex; // Enables flexbox layout
+  flex-direction: column; // Stack items vertically
+  justify-content: center; // Center content vertically
+  align-items: center; // Center content horizontally
+  height: 100%; // Full height of the screen
+  background-color: #f4f4f4; // Light gray background for contrast
+
+  // Container for the login form card
+  &__container {
+    background-color: #fff; // White background
+    padding: 40px; // Space inside the card
+    border-radius: 15px; // Rounded corners
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); // Subtle shadow
+    max-width: 500px; // Limit max width on large screens
+    width: 100%; // Responsive full width
+    text-align: center; // Center-align the form content
+  }
+
+  // Title above the login form
+  &__title {
+    margin-bottom: 20px; // Space below title
+    font-size: 28px; // Large title text
+  }
+
+  // Form wrapper
+  &__form {
+    display: flex;
+    flex-direction: column; // Stack form fields vertically
+  }
+
+  // Label for form inputs
+  &__label {
+    margin-bottom: 5px; // Space between label and input
+    text-align: left; // Align labels to the left
+  }
+
+  // Input fields
+  &__input {
+    padding: 10px; // Inner spacing
+    margin-bottom: 20px; // Space between fields
+    border: 1px solid #ccc; // Light border
+    border-radius: 4px; // Rounded corners
+  }
+
+  // Submit button
+  &__button {
+    margin-top: 15px; // Space above the button
+    background-color: #007bff; // Primary blue
+    color: white; // White text
+    border: none; // Remove default border
+    cursor: pointer; // Show pointer on hover
+    padding: 10px; // Space inside the button
+    border-radius: 4px; // Slightly rounded edges
+    transition: background-color 0.5s ease; // Smooth hover effect
+
+    &:hover {
+      background-color: #0056b3; // Darker blue on hover
+    }
+  }
+
+  // Error message displayed on login failure
+  &__error {
+    color: red; // Red text for errors
+    margin-top: 10px; // Space above the message
+  }
+
+  // Success message displayed on successful login
+  &__success {
+    color: green; // Green text for success
+    margin-top: 10px; // Space above the message
+  }
+
+  // Link to registration
+  &__link {
+    margin-top: 10px; // Space above the link
+    display: inline-block; // Ensure spacing and alignment
+    text-decoration: none; // Remove underline by default
+    color: #000; // Default black color
+    font-weight: bold; // Emphasize the link
+    transition: color 0.3s ease; // Smooth color transition
+
+    &:hover {
+      text-decoration: underline; // Underline on hover for interactivity
+    }
+  }
+}

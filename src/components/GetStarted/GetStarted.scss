@@ -1,0 +1,71 @@
+// Main wrapper for the Get Started page
+.get-started {
+  flex: 1;
+  display: flex; // Enable flex layout
+  flex-direction: column; // Arrange items vertically
+  justify-content: center; // Center content vertically
+  align-items: center; // Center content horizontally
+  height: 100%;
+  background-color: #f4f4f4; // Light background to reduce eye strain
+
+  // Container for the registration form card
+  &__container {
+    background-color: #fff; // White background for contrast
+    padding: 40px; // Internal spacing
+    border-radius: 15px; // Rounded corners for modern look
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); // Soft outer shadow
+    max-width: 500px; // Prevents the container from stretching too wide
+    width: 100%; // Responsive layout for smaller screens
+    text-align: center; // Center-aligns text and form elements
+  }
+
+  // Heading for the registration form
+  &__title {
+    margin: 0 0 20px 0; // Spacing below the title
+    font-size: 28px; // Emphasized size for visibility
+  }
+
+  // Wrapper for the form element
+  &__form {
+    display: flex;
+    flex-direction: column; // Stack form fields vertically
+  }
+
+  // Label styling for each input field
+  &__label {
+    margin-bottom: 5px; // Space between label and input
+    text-align: left; // Align text to the left for clarity
+  }
+
+  // Shared input and select field styling
+  &__input,
+  &__select {
+    padding: 10px; // Inner spacing
+    margin-bottom: 20px; // Space between form fields
+    border: 1px solid #ccc; // Subtle border
+    border-radius: 4px; // Slightly rounded edges
+  }
+
+  // Button styling for registration
+  &__button {
+    margin-top: 23.5px; // Space above the button
+    background-color: #007bff; // Blue theme
+    color: white; // White text for contrast
+    border: none; // Remove default browser border
+    cursor: pointer; // Cursor changes to pointer on hover
+    padding: 10px; // Internal spacing for the button
+    border-radius: 4px; // Rounded button corners
+    transition: background-color 0.5s ease; // Smooth transition for hover
+
+    &:hover {
+      background-color: #0056b3; // Darker shade on hover
+    }
+  }
+
+  // Message shown under the button
+  .message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #d9534f; // Red color to indicate error messages
+  }
+}

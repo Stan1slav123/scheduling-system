@@ -53,16 +53,5 @@
     "duration": "0.5",
     "room": "Ad.Ed. C",
     "numberOfParticipants": "01"
-  },
-  {
-    "id": "87198a2d-85ab-4c9d-a50b-ea6ed9c25e52",
-    "userName": "Admin",
-    "email": "admin",
-    "date": "2025-03-19",
-    "startTime": "11:11",
-    "endTime": "11:41",
-    "duration": "0.5",
-    "room": "Archive Room West Wing",
-    "numberOfParticipants": "10"
   }
 ]

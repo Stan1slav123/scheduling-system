@@ -1,0 +1,64 @@
+// Main wrapper for the Welcome page
+.welcome {
+  flex: 1; // Take full available vertical space
+  display: flex; // Enable flex layout
+  flex-direction: column; // Stack children vertically
+  justify-content: center; // Center content vertically
+  align-items: center; // Center content horizontally
+  background-color: #f4f4f4; // Light grey background
+  text-align: center; // Center text content
+
+  // Title text on the welcome screen
+  &__title {
+    font-size: 36px; // Large heading
+    color: #333; // Dark grey text
+    margin-bottom: 30px; // Space below title
+  }
+
+  // Container for the buttons
+  &__buttons {
+    display: flex; // Horizontal layout for buttons
+    gap: 20px; // Space between the buttons
+  }
+
+  // Base style for each button
+  &__button {
+    padding: 15px 30px; // Inner spacing
+    font-size: 18px; // Medium-large font
+    color: white; // White text
+    background-color: #0073e6; // Primary blue background
+    border: none; // Remove border
+    border-radius: 10px; // Rounded corners
+    cursor: pointer; // Pointer cursor
+    text-decoration: none; // Remove underline
+    transition: background-color 0.5s ease; // Smooth hover animation
+
+    &:hover {
+      background-color: #005bb5; // Darker blue on hover
+    }
+
+    // Modifier for the "Get started" button
+    &--get-started {
+      animation: pulse 3s infinite; // Subtle pulsing animation
+      transition: background-color 0.5s ease, transform 0.2s ease; // Ensure same transitions
+
+      &:hover {
+        background-color: #005bb5; // Match hover color
+        transform: translateY(-3px) scale(1.05); // Add slight scale effect
+      }
+    }
+  }
+}
+
+// Keyframes for the pulsing animation
+@keyframes pulse {
+  0% {
+    transform: scale(1); // Start at normal size
+  }
+  50% {
+    transform: scale(1.05); // Enlarge slightly at midpoint
+  }
+  100% {
+    transform: scale(1); // Return to normal
+  }
+}

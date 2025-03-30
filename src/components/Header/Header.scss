@@ -1,0 +1,95 @@
+// Main wrapper for the header
+.header {
+  background-color: #ffffff; // White background for clarity
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); // Light shadow for elevation
+  color: white;
+  padding: 10px 20px; // Spacing inside the header
+  position: sticky; // Stays at the top during scroll
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999; // Ensures it appears above all other elements
+
+  // Container inside header that holds logo and navigation
+  &__container {
+    display: flex;
+    width: 100%;
+    padding-right: 20px;
+    justify-content: space-between; // Space between logo and right-side nav
+    align-items: center;
+  }
+
+  // Wrapper for logo and left-side nav
+  &__logo-wrap {
+    display: flex;
+    gap: 100px; // Space between logo and nav
+  }
+
+  // Text logo
+  &__logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  // Link inside the logo
+  &__logo-link {
+    color: #007bff; // Blue link color
+    text-decoration: none; // No underline
+  }
+}
+
+// Navigation bar styles
+.navbar {
+  display: flex;
+  gap: 15px; // Space between links
+  justify-content: center;
+  align-items: center;
+
+  // Base link styling
+  &__link {
+    color: #000; // Default black text
+    font-weight: bold;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+
+    // Modifier for links with reduced weight and no decoration
+    &--decorated {
+      font-size: 19px;
+      font-weight: normal;
+      transition: color 0.3s ease; // Smooth transition for hover
+
+      &:hover {
+        color: #007bff; // Hover color for interactivity
+        text-decoration: none;
+      }
+    }
+  }
+
+  // Displays the welcome text
+  &__user {
+    color: #000;
+  }
+
+  // Buttons for "Get Started" and "Logout"
+  &__get-started,
+  &__logout {
+    color: #fff; // White text
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background-color: #007bff; // Blue background
+    transition: background-color 0.5s ease; // Smooth transition for hover
+
+    &:hover {
+      background-color: #0056b3; // Darker blue on hover
+    } 
+  }
+}

@@ -1,0 +1,73 @@
+// Main wrapper for the Privacy Policy page
+.privacyPolicy {
+  display: flex; // Enables flexible layout
+  flex-direction: column; // Stacks child elements vertically
+  justify-content: space-between; // Distributes sections with space
+  align-items: flex-start; // Aligns content to the left
+  padding: 20px; // Outer spacing
+  height: 100%; // Fills full available height
+  background-color: #f4f4f4; // Light grey background
+
+  // Header section at the top of the page
+  &__header {
+    display: flex; // Horizontal layout for title and date
+    justify-content: space-between; // Space between title and date
+    width: 100%; // Full width container
+    align-items: center; // Vertically center content
+    margin-bottom: 20px; // Space below the header
+  }
+
+  // Main title inside the header
+  &__header-title {
+    font-size: 36px; // Large font size for main heading
+  }
+
+  // Effective date text in the header
+  &__header-text {
+    font-size: 16px; // Standard paragraph size
+    color: #444; // Slightly muted text color
+  }
+
+  // Each section of the privacy policy content
+  &__section {
+    display: flex; // Enables vertical layout
+    flex-direction: column; // Stack content vertically
+    align-items: flex-start; // Align section text to the left
+    gap: 5px; // Space between elements inside each section
+    margin-bottom: 20px; // Space between sections
+  }
+
+  // Section title (h2)
+  &__section-title {
+    font-size: 22px; // Medium heading size
+    font-weight: bold; // Bold for emphasis
+  }
+
+  // Description paragraph inside each section
+  &__section-description {
+    color: #343232; // Dark gray for readability
+  }
+
+  // Unordered list in section
+  &__section-list {
+    display: flex; // Flex column layout
+    flex-direction: column; // Stack list items vertically
+    gap: 5px; // Spacing between list items
+    margin-left: 25px; // Indentation for bullet points
+  }
+
+  // Bolded part of list items
+  &__section-list--bold {
+    font-weight: 600; // Slightly bolder for emphasis
+  }
+
+  // Link styling used for email, phone, and external URLs
+  &__section-link {
+    color: #007bff; // Blue color for links
+    text-decoration: none; // No underline initially
+
+    &:hover {
+      text-decoration: underline; // Underline on hover for clarity
+    }
+  }
+}

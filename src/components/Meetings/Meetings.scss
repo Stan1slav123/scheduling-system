@@ -1,0 +1,65 @@
+// Main wrapper for the meetings page
+.meetings {
+  flex: 1;
+  display: flex; // Flex layout for vertical stacking
+  flex-direction: column;
+
+  // Inner container to add spacing around the grid
+  &__container {
+    padding: 40px;
+  }
+
+  // Grid layout for all meeting cards
+  &__grid {
+    display: flex;
+    flex-wrap: wrap; // Allow cards to wrap to next row
+    gap: 20px; // Space between cards
+  }
+
+  // Individual meeting card
+  &__card {
+    background: white; // White background
+    border-radius: 10px; // Rounded corners
+    padding: 15px; // Inner spacing
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Light shadow for elevation
+    width: 280px; // Fixed width for cards
+
+    h2 {
+      margin-bottom: 15px; // Space below room name
+    }
+
+    p {
+      margin-bottom: 8px; // Space between meeting details
+      font-size: 16px; // Readable font size
+    }
+  }
+
+  // Wrapper for the button area
+  &__buttons {
+    display: flex;
+    justify-content: flex-end; // Align buttons to the right
+    margin-top: 10px;
+  }
+
+  // Delete button style
+  &__button {
+    color: white; // White text
+    border: none; // Remove default border
+    border-radius: 15px; // Rounded pill shape
+    padding: 5px 10px;
+    cursor: pointer; // Pointer on hover
+    margin-top: 10px;
+    background-color: red; // Red background for delete
+    transition: background-color 0.5s ease;
+
+    &:hover {
+      background-color: rgb(158, 1, 1); // Darker red on hover
+    }
+  }
+
+  // Message for empty meetings
+  &__empty {
+    font-style: italic;
+    color: #555;
+  }
+}
