@@ -5,7 +5,7 @@ const bodyParser = require('body-parser'); // Parses incoming JSON data
 const fs = require('fs'); // File system module to read/write JSON files
 const nodemailer = require('nodemailer'); // Used to send confirmation emails
 const app = express();
-const port = 5001;
+const port = process.env.PORT || 5001;
 // Configure the email transporter
 const transporter = nodemailer.createTransport({
   service: 'gmail',
