@@ -1,1 +1,378 @@
-
+[
+  {
+    "roomName": "Ad.Ed. C",
+    "capacity": 1
+  },
+  {
+    "roomName": "Anne Moody Office",
+    "capacity": 1
+  },
+  {
+    "roomName": "Archive Room West Wing",
+    "capacity": 1
+  },
+  {
+    "roomName": "C10",
+    "capacity": 9
+  },
+  {
+    "roomName": "C11",
+    "capacity": 9
+  },
+  {
+    "roomName": "C12",
+    "capacity": 4
+  },
+  {
+    "roomName": "C12A",
+    "capacity": 4
+  },
+  {
+    "roomName": "C13",
+    "capacity": 6
+  },
+  {
+    "roomName": "C13A",
+    "capacity": 1
+  },
+  {
+    "roomName": "C14",
+    "capacity": 9
+  },
+  {
+    "roomName": "C15",
+    "capacity": 40
+  },
+  {
+    "roomName": "C16",
+    "capacity": 11
+  },
+  {
+    "roomName": "C3",
+    "capacity": 16
+  },
+  {
+    "roomName": "C7",
+    "capacity": 7
+  },
+  {
+    "roomName": "C8",
+    "capacity": 9
+  },
+  {
+    "roomName": "C8A",
+    "capacity": 12
+  },
+  {
+    "roomName": "C9",
+    "capacity": 7
+  },
+  {
+    "roomName": "Careers 1",
+    "capacity": 1
+  },
+  {
+    "roomName": "Careers 2",
+    "capacity": 3
+  },
+  {
+    "roomName": "Careers 3",
+    "capacity": 1
+  },
+  {
+    "roomName": "Careers Office",
+    "capacity": 1
+  },
+  {
+    "roomName": "CH Training Room",
+    "capacity": 50
+  },
+  {
+    "roomName": "Counsellor Office",
+    "capacity": 1
+  },
+  {
+    "roomName": "Creedy 1",
+    "capacity": 1
+  },
+  {
+    "roomName": "Creedy 2",
+    "capacity": 1
+  },
+  {
+    "roomName": "Creedy 3",
+    "capacity": 1
+  },
+  {
+    "roomName": "Creedy 4",
+    "capacity": 1
+  },
+  {
+    "roomName": "D Harris Old Office",
+    "capacity": 1
+  },
+  {
+    "roomName": "Drama Hall",
+    "capacity": 70
+  },
+  {
+    "roomName": "E1",
+    "capacity": 20
+  },
+  {
+    "roomName": "E10",
+    "capacity": 16
+  },
+  {
+    "roomName": "E11",
+    "capacity": 25
+  },
+  {
+    "roomName": "E12",
+    "capacity": 30
+  },
+  {
+    "roomName": "E13",
+    "capacity": 30
+  },
+  {
+    "roomName": "E14",
+    "capacity": 30
+  },
+  {
+    "roomName": "E15",
+    "capacity": 30
+  },
+  {
+    "roomName": "E17",
+    "capacity": 25
+  },
+  {
+    "roomName": "E2",
+    "capacity": 6
+  },
+  {
+    "roomName": "E3",
+    "capacity": 2
+  },
+  {
+    "roomName": "E4",
+    "capacity": 8
+  },
+  {
+    "roomName": "E42",
+    "capacity": 11
+  },
+  {
+    "roomName": "E44",
+    "capacity": 25
+  },
+  {
+    "roomName": "E45",
+    "capacity": 30
+  },
+  {
+    "roomName": "E5",
+    "capacity": 16
+  },
+  {
+    "roomName": "E6",
+    "capacity": 16
+  },
+  {
+    "roomName": "E7",
+    "capacity": 15
+  },
+  {
+    "roomName": "E8",
+    "capacity": 16
+  },
+  {
+    "roomName": "E9",
+    "capacity": 16
+  },
+  {
+    "roomName": "Flexible Learning Base",
+    "capacity": 20
+  },
+  {
+    "roomName": "H1",
+    "capacity": 16
+  },
+  {
+    "roomName": "H2",
+    "capacity": 16
+  },
+  {
+    "roomName": "H3",
+    "capacity": 16
+  },
+  {
+    "roomName": "H4",
+    "capacity": 16
+  },
+  {
+    "roomName": "H5",
+    "capacity": 16
+  },
+  {
+    "roomName": "H6",
+    "capacity": 16
+  },
+  {
+    "roomName": "H7",
+    "capacity": 16
+  },
+  {
+    "roomName": "H8",
+    "capacity": 8
+  },
+  {
+    "roomName": "Interview Room",
+    "capacity": 3
+  },
+  {
+    "roomName": "J Edwards Office",
+    "capacity": 2
+  },
+  {
+    "roomName": "Kempson Room",
+    "capacity": 6
+  },
+  {
+    "roomName": "M1",
+    "capacity": 36
+  },
+  {
+    "roomName": "M11",
+    "capacity": 12
+  },
+  {
+    "roomName": "M13",
+    "capacity": 12
+  },
+  {
+    "roomName": "M2",
+    "capacity": 21
+  },
+  {
+    "roomName": "M3 Science Office",
+    "capacity": 10
+  },
+  {
+    "roomName": "M4",
+    "capacity": 16
+  },
+  {
+    "roomName": "M7",
+    "capacity": 15
+  },
+  {
+    "roomName": "M8",
+    "capacity": 12
+  },
+  {
+    "roomName": "Music E19",
+    "capacity": 35
+  },
+  {
+    "roomName": "Music E20",
+    "capacity": 20
+  },
+  {
+    "roomName": "Old Gym",
+    "capacity": 70
+  },
+  {
+    "roomName": "RECEPTION MEETING POINT",
+    "capacity": 80
+  },
+  {
+    "roomName": "Shaftesbury Room",
+    "capacity": 4
+  },
+  {
+    "roomName": "Sports Hall",
+    "capacity": 239
+  },
+  {
+    "roomName": "UGY1",
+    "capacity": 240
+  },
+  {
+    "roomName": "Upper School Hall",
+    "capacity": 66
+  },
+  {
+    "roomName": "Upper School Library",
+    "capacity": 30
+  },
+  {
+    "roomName": "Vicary Room",
+    "capacity": 4
+  },
+  {
+    "roomName": "W1",
+    "capacity": 5
+  },
+  {
+    "roomName": "W10",
+    "capacity": 20
+  },
+  {
+    "roomName": "W11",
+    "capacity": 17
+  },
+  {
+    "roomName": "W12",
+    "capacity": 24
+  },
+  {
+    "roomName": "W13",
+    "capacity": 20
+  },
+  {
+    "roomName": "W14",
+    "capacity": 30
+  },
+  {
+    "roomName": "W15",
+    "capacity": 8
+  },
+  {
+    "roomName": "W19",
+    "capacity": 14
+  },
+  {
+    "roomName": "W2",
+    "capacity": 8
+  },
+  {
+    "roomName": "W3",
+    "capacity": 16
+  },
+  {
+    "roomName": "W4",
+    "capacity": 16
+  },
+  {
+    "roomName": "W7",
+    "capacity": 32
+  },
+  {
+    "roomName": "W8",
+    "capacity": 16
+  },
+  {
+    "roomName": "W9",
+    "capacity": 16
+  },
+  {
+    "roomName": "Winfrith",
+    "capacity": 10
+  },
+  {
+    "roomName": "Winfrith Room",
+    "capacity": 10
+  }
+]
